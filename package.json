@@ -1,0 +1,23 @@
+{
+  "name": "ly-code-generator",
+  "version": "1.0.10",
+  "description": "代码生成",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "code-gen": "bin/code-gen"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "fs-extra": "^2.1.2",
+    "inquirer": "^3.0.6",
+    "lodash": "^4.17.4",
+    "replacestream": "^4.0.2"
+  },
+  "devDependencies": {}
+}
